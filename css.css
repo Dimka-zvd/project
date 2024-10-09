@@ -12,6 +12,30 @@
     width: 1024px;
     height: 768px;
 }
+.raz1{
+    width: 1024px;
+    height: 508px;
+    position: absolute;
+    top: 828px;
+}
+.raz2{
+    width: 1024px;
+    height: 498px;
+    position: absolute;
+    top: 1416px;
+}
+.raz3{
+    width: 1024px;
+    height: 1015px;
+    position: absolute;
+    top: 1994px;
+}
+.raz4{
+    width: 1024px;
+    height: 1091px;
+    position: absolute;
+    top: 3089px;
+}
 header button{
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -31,8 +55,8 @@ header h1{
     font-size: 157px;
     color: #DB00FF;
     text-shadow: 4px 4px #FF0070;
-    position: relative;
-    top: 273px;
+    position: absolute;
+    top: 319px;
     margin: 0;
 }
 header p{
@@ -43,6 +67,13 @@ header p{
     left: 513px;
     margin: 0;
 }
+.pe{
+    width: 314.96px;
+    height: 47px;
+    position: absolute;
+    left: 20px;
+}
+
 .red{
     color: #FF0070;
 }
@@ -58,6 +89,47 @@ header p{
 .black{
     color: #000028;
 }
+.bc-black{
+    background-color: #000028;
+}
+.pink{
+    color: #F1B2CE;
+}
 .small{
     font-size: 18px;
+}
+.op{
+    position: relative;
+    left: 354.89px;
+    width: 648.92px;
+    height: 244px;
+}
+.txta{
+    height: 211px;
+    position: absolute;
+}
+.p{
+    text-align: left;
+}
+.top1{
+    top: 33px;
+}
+span{
+    display: block;
+}
+.width{
+    width: 315px;
+    position: absolute;
+}
+.top2{
+    top: 67px;
+}
+.hei{
+    height: 23px;
+}
+.div1{
+    left: 335px;
+}
+.div2{
+    left: 670px;
 }
