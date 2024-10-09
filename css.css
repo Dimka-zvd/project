@@ -36,6 +36,20 @@
     position: absolute;
     top: 3089px;
 }
+footer{
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    top: 4240px;
+}
+footer h1{
+    text-shadow: 2px 2px #FF0070;
+    position: absolute;
+    left: 277px;
+    right: 277px;
+    top: 319px;
+    bottom: 319px;
+}
 header button{
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -51,7 +65,7 @@ header div{
 .txtb{
     border: 1px solid #FF0070;
 }
-header h1{
+h1{
     font-size: 157px;
     color: #DB00FF;
     text-shadow: 4px 4px #FF0070;
@@ -67,11 +81,14 @@ header p{
     left: 513px;
     margin: 0;
 }
+.raz4 p{
+    position: absolute;
+    width: 984px;
+}
 .pe{
     width: 314.96px;
     height: 47px;
     position: absolute;
-    left: 20px;
 }
 
 .red{
@@ -104,6 +121,11 @@ header p{
     width: 648.92px;
     height: 244px;
 }
+.op1{
+    position: relative;
+    left: 354.89px;
+    width: 648.92px;
+}
 .txta{
     height: 211px;
     position: absolute;
@@ -128,8 +150,59 @@ span{
     height: 23px;
 }
 .div1{
-    left: 335px;
+    left: 355px;
 }
 .div2{
-    left: 670px;
+    left: 690px;
+}
+.left{
+    left: 20px;
+}
+.h1{
+    height:244px ;
+}
+.h2{
+    height: 150px;
+}
+.h3{
+    height: 197px;
+}
+.h4{
+    height: 151px;
+}
+.h5{
+    height: 150px;
+}
+.raz4 img{
+    position: absolute;
+}
+.img1{
+    width: 649px;
+    height: 260px;
+    top: 43px;
+    left: 20.24px;
+}
+.img2{
+    width: 315px;
+    height: 595px;
+    top: 43px;
+    left: 689px;
+}
+.img3{
+    width: 649px;
+    height: 428px;
+    top: 663px;
+    left: 355px;
+}
+.img4{
+    width: 315px;
+    height: 768px;
+    top: 323px;
+    left: 20.24px;
+}
+.img5{
+    width: 315px;
+    height: 315px;
+    top: 323px;
+    left: 355px;
 }
