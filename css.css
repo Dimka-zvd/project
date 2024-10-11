@@ -36,6 +36,10 @@
     position: absolute;
     top: 3089px;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
 footer{
     width: 1024px;
     height: 768px;
@@ -54,8 +58,10 @@ header button{
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     border: none;
+    padding: 0px 10px 0px;
+    width: 70px;
 }
-header div{
+.hddiv{
     position: relative;
     top: 20px;
     left: 397px;
@@ -65,21 +71,60 @@ header div{
 .txtb{
     border: 1px solid #FF0070;
 }
+.border1{
+    border-left: 1px solid #FF0070;
+    border-bottom: 1px solid #FF0070;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 723px;
+    left: 20px;
+
+}
+.border2{
+    border-right: 1px solid #FF0070;
+    border-top: 1px solid #FF0070;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 979px;
+    top: 20px;
+}
 h1{
-    font-size: 157px;
+    font-size: 153px;
     color: #DB00FF;
     text-shadow: 4px 4px #FF0070;
     position: absolute;
-    top: 319px;
+    top: 300px;
     margin: 0;
+    font-family: 'IBM Plex Mono Bold';
 }
-header p{
+.headerp{
     width: 491px;
     height: 70px;
     position: absolute;
     top: 563px;
     left: 513px;
     margin: 0;
+}
+.p3{
+    width: 33px;
+    height: 26px;
+    margin: 0;
+}
+.div3{
+    position: absolute;
+    left: 943px;
+    top: 23px;
+}
+.circle{
+    position: absolute;
+    left: 986px;
+    top: 30px;
+}
+.raz4 div{
+    position: absolute;
+    top: 20px;
 }
 .raz4 p{
     position: absolute;
@@ -206,3 +251,10 @@ span{
     top: 323px;
     left: 355px;
 }
+.rec{
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    box-shadow: 0 0 4px 2px #FF0070;
+}
+
