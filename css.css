@@ -68,9 +68,6 @@ header button{
     width: 230px;
     height: 26px;
 }
-.txtb{
-    border: 1px solid #FF0070;
-}
 .border1{
     border-left: 1px solid #FF0070;
     border-bottom: 1px solid #FF0070;
@@ -93,11 +90,14 @@ header button{
 h1{
     font-size: 153px;
     color: #DB00FF;
-    text-shadow: 4px 4px #FF0070;
     position: absolute;
-    top: 300px;
     margin: 0;
     font-family: 'IBM Plex Mono Bold';
+}
+.headerh{
+    height: 130px;
+    text-shadow: 4px 4px #FF0070;
+    top: 319px;
 }
 .headerp{
     width: 491px;
@@ -145,13 +145,13 @@ h1{
 .fontBold{
     font-family: 'IBM Plex Mono Bold';
 }
-.bc-red{
+.bc{
     background-color: #FF0070;
 }
 .black{
     color: #000028;
 }
-.bc-black{
+.bcos{
     background-color: #000028;
 }
 .pink{
@@ -257,4 +257,18 @@ span{
     height: 9px;
     box-shadow: 0 0 4px 2px #FF0070;
 }
-
+.txt1{
+    width: 70px;
+}
+.txt3{
+    width: 70px;
+}
+.txt3:hover{
+    border: 1px solid #FF0070;
+}
+.txt1:hover{
+    border: 1px solid #32312D;
+}
+.txt3:focus > .bcos{
+    background-color: #FFF1F7;
+}
