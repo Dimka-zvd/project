@@ -56,7 +56,7 @@ footer h1{
     position: absolute;
     left: 277px;
     right: 277px;
-    top: 286px;
+    top: 283px;
     bottom: 319px;
 }
 header button{
@@ -269,19 +269,4 @@ span{
     width: 9px;
     height: 9px;
     box-shadow: 0 0 4px 2px #FF0070;
-}
-.txt1{
-    width: 70px;
-}
-.txt3{
-    width: 70px;
-}
-.txt3:hover{
-    border: 1px solid #FF0070;
-}
-.txt1:hover{
-    border: 1px solid #32312D;
-}
-.txt3:focus > .bcos{
-    background-color: #FFF1F7;
 }
